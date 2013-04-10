@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import matplotlib.mlab as mlab
 
 # 0 os or 1 ss
-type = 1
+type = 0
 
 fig = plt.figure()
 ax = fig.add_subplot(111)
@@ -46,7 +46,7 @@ else:
 ax.set_ylabel(r'Events/GeV')
 ax.set_ylim(0)
 ax.set_xlim(60,120)
-ax.grid(True)
+#ax.grid(True)
 
 plt.show()
 
